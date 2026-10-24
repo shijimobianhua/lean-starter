@@ -1,0 +1,57 @@
+{
+  "name": "lean-starter",
+  "private": true,
+  "version": "1.6.6",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/check-public-package.mjs && tsc --noEmit && vite build",
+    "test": "vitest run",
+    "preview": "vite preview --host 127.0.0.1",
+    "format": "prettier --write src docs e2e *.json *.ts README.md",
+    "test:e2e": "playwright test",
+    "check": "node scripts/check-public-package.mjs && tsc --noEmit",
+    "test:smoke": "playwright test e2e/starter.spec.ts",
+    "licenses": "node scripts/third-party-notices.mjs",
+    "audit:public": "node scripts/check-public-package.mjs --shipping"
+  },
+  "dependencies": {
+    "dexie": "^4.0.0",
+    "dexie-react-hooks": "^1.1.7",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^3.0.0",
+    "qrcode": "^1.5.4",
+    "grapheme-splitter": "^1.0.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@testing-library/jest-dom": "^6.6.0",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.6.0",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "fake-indexeddb": "^6.2.6",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.9.10",
+    "typescript": "^5.7.0",
+    "vite": "^6.1.0",
+    "vite-plugin-pwa": "^0.21.0",
+    "vitest": "^4.1.12",
+    "@types/qrcode": "^1.5.5",
+    "jsqr": "^1.4.0"
+  },
+  "description": "基于薄肌 LEAN 1.6.6 的个人非商业自部署与 AI 开发模板",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shijimobianhua/lean-starter.git"
+  },
+  "author": "shijimobianhua"
+}

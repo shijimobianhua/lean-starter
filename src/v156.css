@@ -1,0 +1,81 @@
+/* Functional micro-colour: white surfaces, colour only on meaningful details. */
+:root,
+html[data-theme="light"] {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --text: #2e3a35;
+  --muted: #69766f;
+  --line: #e4e8e5;
+  --accent: #2f7b5c;
+  --hero: #edf4ef;
+  --blue: #edf5fb;
+  --lavender: #f3eff8;
+  --peach: #faf3e8;
+}
+html[data-theme="light"]
+  :is(
+    .panel,
+    .metric,
+    .daily-quote,
+    .weight-progress,
+    .photo-callout,
+    .app-modal,
+    .bottom-nav,
+    .settings-entry,
+    .quote-entry
+  ) {
+  background: var(--surface);
+}
+html[data-theme="light"] .compact-stack .weight-progress,
+html[data-theme="light"] .compact-stack .stack-slide > .daily-quote {
+  background: var(--surface);
+}
+html[data-theme="light"] .metric-label > svg {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 9px;
+  color: var(--accent);
+  background: var(--hero);
+}
+html[data-theme="light"] .metric.blue .metric-label > svg {
+  color: #477b9d;
+  background: var(--blue);
+}
+html[data-theme="light"] .metric.lavender .metric-label > svg {
+  color: #80709a;
+  background: var(--lavender);
+}
+html[data-theme="light"] .metric.peach .metric-label > svg {
+  color: #956e36;
+  background: var(--peach);
+}
+html[data-theme="light"] .metric.neutral .metric-label > svg {
+  color: var(--accent);
+  background: var(--hero);
+}
+html[data-theme="light"] .photo-icon {
+  background: var(--hero);
+  color: var(--accent);
+}
+html[data-theme="light"]
+  .compact-stack
+  .weight-progress
+  .section-heading
+  > small {
+  background: var(--hero);
+  color: var(--accent);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+html[data-theme="dark"] .compact-stack .weight-progress {
+  background: #2b2924;
+}
+.home-metrics-title {
+  font-size: clamp(17px, 4.4vw, 20px);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.trend-stage[data-restored="true"] {
+  animation: none;
+}

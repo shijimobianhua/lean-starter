@@ -1,0 +1,85 @@
+# Third-party notices
+
+The project noncommercial license does not replace third-party licenses. These packages retain their own permissions, copyright and conditions. Generated from the locked production dependency graph, including transitive runtime packages. Development dependencies keep their own licenses too.
+
+| Package | Version | License |
+| --- | --- | --- |
+| @reduxjs/toolkit | 2.13.0 | MIT |
+| @standard-schema/spec | 1.1.0 | MIT |
+| @standard-schema/utils | 0.3.0 | MIT |
+| @types/d3-array | 3.2.2 | MIT |
+| @types/d3-color | 3.1.3 | MIT |
+| @types/d3-ease | 3.0.2 | MIT |
+| @types/d3-interpolate | 3.0.4 | MIT |
+| @types/d3-path | 3.1.1 | MIT |
+| @types/d3-scale | 4.0.9 | MIT |
+| @types/d3-shape | 3.2.0 | MIT |
+| @types/d3-time | 3.0.4 | MIT |
+| @types/d3-timer | 3.0.2 | MIT |
+| @types/react | 19.3.0 | MIT |
+| @types/use-sync-external-store | 0.0.6 | MIT |
+| ansi-regex | 5.0.1 | MIT |
+| ansi-styles | 4.3.0 | MIT |
+| camelcase | 5.3.1 | MIT |
+| cliui | 6.0.0 | ISC |
+| clsx | 2.1.1 | MIT |
+| color-convert | 2.0.1 | MIT |
+| color-name | 1.1.4 | MIT |
+| csstype | 3.2.3 | MIT |
+| d3-array | 3.2.4 | ISC |
+| d3-color | 3.1.0 | ISC |
+| d3-ease | 3.0.1 | BSD-3-Clause |
+| d3-format | 3.1.2 | ISC |
+| d3-interpolate | 3.0.1 | ISC |
+| d3-path | 3.1.0 | ISC |
+| d3-scale | 4.0.2 | ISC |
+| d3-shape | 3.2.0 | ISC |
+| d3-time | 3.1.0 | ISC |
+| d3-time-format | 4.1.0 | ISC |
+| d3-timer | 3.0.1 | ISC |
+| decamelize | 1.2.0 | MIT |
+| decimal.js-light | 2.5.1 | MIT |
+| dexie | 4.4.6 | Apache-2.0 |
+| dexie-react-hooks | 1.1.7 | Apache-2.0 |
+| dijkstrajs | 1.0.3 | MIT |
+| emoji-regex | 8.0.0 | MIT |
+| es-toolkit | 1.52.0 | MIT |
+| eventemitter3 | 5.0.4 | MIT |
+| find-up | 4.1.0 | MIT |
+| get-caller-file | 2.0.5 | ISC |
+| grapheme-splitter | 1.0.4 | MIT |
+| immer | 11.1.21 | MIT |
+| internmap | 2.0.3 | ISC |
+| is-fullwidth-code-point | 3.0.0 | MIT |
+| locate-path | 5.0.0 | MIT |
+| lucide-react | 0.468.0 | ISC |
+| p-limit | 2.3.0 | MIT |
+| p-locate | 4.1.0 | MIT |
+| p-try | 2.2.0 | MIT |
+| path-exists | 4.0.0 | MIT |
+| pngjs | 5.0.0 | MIT |
+| qrcode | 1.5.4 | MIT |
+| react | 19.3.1 | MIT |
+| react-dom | 19.3.1 | MIT |
+| react-is | 19.3.1 | MIT |
+| react-redux | 9.3.0 | MIT |
+| recharts | 3.10.1 | MIT |
+| redux | 5.0.1 | MIT |
+| redux-thunk | 3.1.0 | MIT |
+| require-directory | 2.1.1 | MIT |
+| require-main-filename | 2.0.0 | ISC |
+| reselect | 5.2.0 | MIT |
+| scheduler | 0.28.0 | MIT |
+| set-blocking | 2.0.0 | ISC |
+| string-width | 4.2.3 | MIT |
+| strip-ansi | 6.0.1 | MIT |
+| tiny-invariant | 1.3.3 | MIT |
+| use-sync-external-store | 1.7.0 | MIT |
+| victory-vendor | 37.3.6 | MIT AND ISC |
+| which-module | 2.0.1 | ISC |
+| wrap-ansi | 6.2.0 | MIT |
+| y18n | 4.0.3 | ISC |
+| yargs | 15.4.1 | MIT |
+| yargs-parser | 18.1.3 | ISC |
+
+Full available installed license texts: [docs/THIRD_PARTY_LICENSES.txt](docs/THIRD_PARTY_LICENSES.txt).

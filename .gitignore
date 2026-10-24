@@ -1,0 +1,15 @@
+node_modules/
+dist/
+artifacts/
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+*.local
+*.log
+*.bundle
+*.tar.gz
+.openai/hosting.json
+.DS_Store
+Thumbs.db
